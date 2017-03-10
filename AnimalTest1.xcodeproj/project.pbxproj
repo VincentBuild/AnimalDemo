@@ -15,6 +15,10 @@
 		BF07AA811E10E33B0051708E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF07AA7F1E10E33B0051708E /* LaunchScreen.storyboard */; };
 		BF07AA8C1E10E33B0051708E /* AnimalTest1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07AA8B1E10E33B0051708E /* AnimalTest1Tests.m */; };
 		BF07AA971E10E33B0051708E /* AnimalTest1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07AA961E10E33B0051708E /* AnimalTest1UITests.m */; };
+		BF07AAAA1E10E4BD0051708E /* AnimalManage.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07AAA51E10E4BD0051708E /* AnimalManage.m */; };
+		BF07AAAB1E10E4BD0051708E /* AnimalOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07AAA71E10E4BD0051708E /* AnimalOperation.m */; };
+		BF07AAAC1E10E4BD0051708E /* AnimalView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07AAA91E10E4BD0051708E /* AnimalView.m */; };
+		BF07AAAF1E1238D50051708E /* AnimalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF07AAAE1E1238D50051708E /* AnimalLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		BF07AA921E10E33B0051708E /* AnimalTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimalTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF07AA961E10E33B0051708E /* AnimalTest1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimalTest1UITests.m; sourceTree = "<group>"; };
 		BF07AA981E10E33B0051708E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF07AAA41E10E4BD0051708E /* AnimalManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalManage.h; sourceTree = "<group>"; };
+		BF07AAA51E10E4BD0051708E /* AnimalManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalManage.m; sourceTree = "<group>"; };
+		BF07AAA61E10E4BD0051708E /* AnimalOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalOperation.h; sourceTree = "<group>"; };
+		BF07AAA71E10E4BD0051708E /* AnimalOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalOperation.m; sourceTree = "<group>"; };
+		BF07AAA81E10E4BD0051708E /* AnimalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalView.h; sourceTree = "<group>"; };
+		BF07AAA91E10E4BD0051708E /* AnimalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalView.m; sourceTree = "<group>"; };
+		BF07AAAD1E1238D50051708E /* AnimalLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimalLabel.h; sourceTree = "<group>"; };
+		BF07AAAE1E1238D50051708E /* AnimalLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimalLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 		BF07AA701E10E33B0051708E /* AnimalTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				BF07AAA41E10E4BD0051708E /* AnimalManage.h */,
+				BF07AAA51E10E4BD0051708E /* AnimalManage.m */,
+				BF07AAA61E10E4BD0051708E /* AnimalOperation.h */,
+				BF07AAA71E10E4BD0051708E /* AnimalOperation.m */,
+				BF07AAA81E10E4BD0051708E /* AnimalView.h */,
+				BF07AAA91E10E4BD0051708E /* AnimalView.m */,
 				BF07AA741E10E33B0051708E /* AppDelegate.h */,
 				BF07AA751E10E33B0051708E /* AppDelegate.m */,
 				BF07AA771E10E33B0051708E /* ViewController.h */,
@@ -110,6 +128,8 @@
 				BF07AA7F1E10E33B0051708E /* LaunchScreen.storyboard */,
 				BF07AA821E10E33B0051708E /* Info.plist */,
 				BF07AA711E10E33B0051708E /* Supporting Files */,
+				BF07AAAD1E1238D50051708E /* AnimalLabel.h */,
+				BF07AAAE1E1238D50051708E /* AnimalLabel.m */,
 			);
 			path = AnimalTest1;
 			sourceTree = "<group>";
@@ -276,8 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF07AAAA1E10E4BD0051708E /* AnimalManage.m in Sources */,
 				BF07AA791E10E33B0051708E /* ViewController.m in Sources */,
+				BF07AAAF1E1238D50051708E /* AnimalLabel.m in Sources */,
+				BF07AAAC1E10E4BD0051708E /* AnimalView.m in Sources */,
 				BF07AA761E10E33B0051708E /* AppDelegate.m in Sources */,
+				BF07AAAB1E10E4BD0051708E /* AnimalOperation.m in Sources */,
 				BF07AA731E10E33B0051708E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XP6RQ7FH68;
 				INFOPLIST_FILE = AnimalTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YoungDa.AnimalTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XP6RQ7FH68;
 				INFOPLIST_FILE = AnimalTest1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YoungDa.AnimalTest1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -514,6 +540,7 @@
 				BF07AA9D1E10E33B0051708E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF07AA9E1E10E33B0051708E /* Build configuration list for PBXNativeTarget "AnimalTest1Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +549,7 @@
 				BF07AAA01E10E33B0051708E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF07AAA11E10E33B0051708E /* Build configuration list for PBXNativeTarget "AnimalTest1UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +558,7 @@
 				BF07AAA31E10E33B0051708E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
